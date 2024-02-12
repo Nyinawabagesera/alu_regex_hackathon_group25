@@ -1,6 +1,6 @@
 import re
 
-text = "Fish (2002), 01-10-2000, ISBN 123-4-123-12345-1, 192.098.190.075, #ffffff, Fish S01E02:Little Rat, @Ghyghi, [Verse 1] I love you..., Why did the car run ? Because nothing"
+text = "Fish (2002), 01-Mar-2000, ISBN 123-4-123-12345-1, 192.098.190.075, #ffffff, Fish S01E02:Little Rat, @Ghyghi, [Verse 1] I love you..., Why did the car run ? Because nothing"
 
 
 #Regular Expression
