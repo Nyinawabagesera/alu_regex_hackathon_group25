@@ -1,6 +1,6 @@
 import re
 
-text = "Why did the car run ? Because nothing"
+text = "Why did the car run ? Because nothing,"
 
 #Regular Expression
 jokes_regex = r'Why did the .*? Because.*\,'
