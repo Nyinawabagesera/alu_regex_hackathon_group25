@@ -1,12 +1,12 @@
 import re
 
-text = "#ffffff"
+text = "#ffffff, #FF001, #FF0000"
 
 #Regular Expression
-hex_colors = re.findall(r'#([A-Fa-f0-9]{6})')
+hex_color_regex = r'#([A-Fa-f0-9]{6})'
 
 #Extracting Data
-if len(hex_colors.findall(text)) != 0:
-    print(f"Matches: {color_pattern.findall(text)}")
-else:
-    print(f"{text} has no matches")
+hex_colors = re.findall(hex_color_regex, text)
+
+#Printing Extracted Data
+print("Hex Color Codes:", hex_colors)
