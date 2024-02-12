@@ -1,6 +1,6 @@
 import re
 
-text = "@Ghyghi"
+text = "@dvne"
 
 #Regular Expression
 twitter_username_regex = r'@\w+'
