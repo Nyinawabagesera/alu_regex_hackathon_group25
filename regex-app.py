@@ -25,6 +25,9 @@ song_lyrics = re.findall(song_lyrics_regex, text)
 twitter_usernames = re.findall(twitter_username_regex, text)
 jokes = re.findall(jokes_regex, text)
 
+matches = re.findall(song_lyrics_regex, text)
+lyrics_array = [(section, lyrics + '...,') for section, lyrics in matches]
+
 #Printing Extracted Data
 print("Movie Titles:", movie_titles)
 print("Dates:", dates)
@@ -35,3 +38,4 @@ print("TV Episode Titles:", tv_episode_titles)
 print("Song Lyrics:", lyrics_array)
 print("Twitter Usernames:", twitter_usernames)
 print("Jokes:", jokes)
+
